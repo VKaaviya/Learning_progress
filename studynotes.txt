@@ -1,0 +1,21 @@
+git clone:
+	It clone the repository from github to working directory.
+git add:
+	it moves the new changes  and files to the staged area.
+	there is two ways to  use this command:
+		git add. --> it add all the changes and file 
+		git add <filename> --> it add the mentioned file or the changes in mentioned file.
+git diff:
+	it used to track the changes made in staged are but not yet committed / changes not yet staged / b/w two commits ...
+	types of uses:
+		git diff --> it shows the changes that made in working directory but not staged
+		git diff --cached / --staged --> it shows the changes in staged area not yet committed 
+		git diff <commit 1> <commit 2> --> changes b/w two commits 
+git commit:
+	it moves the changes to  local repository
+	git commit -m "message"
+git push:
+	it moves the file to remote area.
+	
+	
+
