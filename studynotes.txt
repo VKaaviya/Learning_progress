@@ -16,6 +16,26 @@ git commit:
 	git commit -m "message"
 git push:
 	it moves the file to remote area.
+
+The git tag:
+	used to create, list, delete, and verify tags within a repository. Tags are essentially pointers or bookmarks to specific commits in the project history, commonly used to 																								mark important points like software releases 
+
+The git reset:
+	used to undo local changes to the state of a Git repository by moving the HEAD (current branch pointer) to a different commit. It affects the commit history, the staging index, and the working directory, depending on the option used.
+	
+The git log:
+	displays the commit history of a Git repository. By default, it shows commits in reverse chronological order, with the newest commit appearing first
+	
+he git cherry-pick:
+	used to apply a specific commit from one branch onto another branch. Unlike merging or rebasing, which involve integrating entire branches or a series of commits, cherry-pick provides granular control by allowing you to select and apply individual commits.
+
+The git rebase:
+	allows for rewriting commit history by reapplying commits from one branch onto another. This results in a linear history, unlike git merge, which creates a merge commit
+
+
+The git merge:
+	 integrates changes from a specified branch into the currently checked-out branch. This process combines the independent lines of development that result from using git branch.
+
 	
 	
 
