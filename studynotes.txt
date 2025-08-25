@@ -31,6 +31,14 @@ Working with Git
     Git allows you to see the full history of every commit.
     You can revert back to any previous commit.
     Git does not store a separate copy of every file in every commit, but keeps track of changes made in each commit!
+What is GitHub?
+
+    Git is not the same as GitHub.
+    GitHub makes tools that use Git.
+    GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.
+    In this tutorial, we will focus on using Git with GitHub.
+
+
 
 git clone:
 	It clone the repository from github to working directory.
