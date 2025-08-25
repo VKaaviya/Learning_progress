@@ -16,6 +16,87 @@ git commit:
 	git commit -m "message"
 git push:
 	it moves the file to remote area.
+
+The git tag:
+	used to create, list, delete, and verify tags within a repository. Tags are essentially pointers or bookmarks to specific commits in the project history, commonly used to 																								mark important points like software releases 
+
+The git reset:
+	used to undo local changes to the state of a Git repository by moving the HEAD (current branch pointer) to a different commit. It affects the commit history, the staging index, and the working directory, depending on the option used.
+	
+The git log:
+	displays the commit history of a Git repository. By default, it shows commits in reverse chronological order, with the newest commit appearing first
+	
+he git cherry-pick:
+	used to apply a specific commit from one branch onto another branch. Unlike merging or rebasing, which involve integrating entire branches or a series of commits, cherry-pick provides granular control by allowing you to select and apply individual commits.
+
+The git rebase:
+	allows for rewriting commit history by reapplying commits from one branch onto another. This results in a linear history, unlike git merge, which creates a merge commit
+
+
+The git merge:
+	 integrates changes from a specified branch into the currently checked-out branch. This process combines the independent lines of development that result from using git branch.
+Commands to Check System Information
+
+		***Linux***
+
+1.Find your Linux distribution:
+
+        cat /etc/os-release
+
+ 2.Find Linux kernel version:
+
+        uname -r or uname -a
+
+ 3.Find number of Cores/Socket:
+
+        lscpu (look for "Core(s) per socket" and "Socket(s)")
+
+ 4.Check RAM size:
+
+        free -h
+
+        cat /proc/meminfo (look for "MemTotal")
+
+ 5.Monitor currently running processes and their RAM/Core usage:
+
+        top or htop (a more user-friendly version)
+
+6.Sort running processes by their RAM/Core usage:
+
+        In top, press 'M' to sort by memory (%MEM) or 'P' to sort by CPU usage (%CPU).
+
+        From the command line: ps aux --sort=-%cpu or ps aux --sort=-%mem
+
+7.Check if your laptop has any GPU:
+
+        lspci | grep -i vga or lspci | grep -i nvidia (if you know it's an NVIDIA card). You may also need to install and run nvidia-smi for NVIDIA GPUs or radeontop for AMD GPUs.
+
+8.Find the number of disks in your machine and their usage:
+
+        lsblk
+
+        df -h
+
+9.Find all the USB devices connected in your machine:
+
+        lsusb
+
+        lsblk can also show USB storage devices
+
+10.Difference between sudo and super user
+
+    -->su (Super User): The su command is used to switch the current user to another user, most commonly the root user. When you run su, you are prompted for the root user's password. If successful, you gain a new shell with full administrative privileges, and you remain the root user until you exit that shell. This can be less secure as you have complete root access and could potentially make mistakes that affect the entire system.
+
+    -->sudo (Super User Do): The sudo command allows a permitted user to execute a single command as the root user or another specified user. It's more secure and flexible because:
+
+        You are asked for your own password, not the root password.
+
+        It provides a temporary elevation of privilege for a single command.
+
+        System administrators can configure the /etc/sudoers file to give specific users or groups permission to run only certain commands as root, providing granular control and limiting potential damage.
+
+
+
 	
 	
 
