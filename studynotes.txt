@@ -1,4 +1,4 @@
-What is Git?
+*****What is Git?******
 
 Git is a popular version control system.
 
@@ -10,7 +10,7 @@ It is used for:
     Tracking who made changes
     Coding collaboration
 
-Key Git Concepts
+***Key Git Concepts***
 
     Repository: A folder where Git tracks your project and its history.
     Clone: Make a copy of a remote repository on your computer.
@@ -21,7 +21,7 @@ Key Git Concepts
     Pull: Get the latest changes from a remote repository.
     Push: Send your changes to a remote repository.
 
-Working with Git
+***Working with Git***
 
     Initialize Git on a folder, making it a Repository
     Git now creates a hidden folder to keep track of changes in that folder
@@ -31,7 +31,7 @@ Working with Git
     Git allows you to see the full history of every commit.
     You can revert back to any previous commit.
     Git does not store a separate copy of every file in every commit, but keeps track of changes made in each commit!
-What is GitHub?
+***What is GitHub?***
 
     Git is not the same as GitHub.
     GitHub makes tools that use Git.
@@ -39,6 +39,7 @@ What is GitHub?
     In this tutorial, we will focus on using Git with GitHub.
 
 
+***GIT COMMANDS***
 
 git clone:
 	It clone the repository from github to working directory.
